@@ -1,6 +1,6 @@
 ## CnfEvaluator
 
-Cnf = Conjunctive normal form
+Cnf = Conjunctive normal form. 
 Komponenta na vyhodnocování konjunktní normální formy. Projde pole opravdových hodnot a pole boolean hodnot jednotlivých callbacků, pokud se jednotlivá pole shodují, provede callback.
 
 
