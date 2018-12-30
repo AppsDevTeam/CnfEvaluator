@@ -2,15 +2,15 @@
 
 namespace ADT;
 
-use Nette;
-
 /**
  * Cnf = Conjunctive normal form
  * Komponenta na vyhodnocování konjunktní normální formy
  * Projde pole opravdových hodnot a pole boolean hodnot jednotlivých callbacků,
  * pokud se jednotlivá pole shodují, provede callback
  */
-class CnfEvaluator extends Nette\Object {
+class CnfEvaluator {
+	
+	use \Nette\SmartObject;
 
 	/** @var array */
 	protected $callbacks;
